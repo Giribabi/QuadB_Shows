@@ -1,0 +1,17 @@
+@keyframes spin{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.loader{
+    border: 10px solid blueviolet;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 2em;
+    border-top: 10px solid transparent;
+    animation: spin 1s linear infinite ;
+}

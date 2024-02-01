@@ -1,0 +1,57 @@
+.proceed{
+    display: inline;
+    text-align: center;
+    color: rgb(0, 185, 255);
+    border: 2px solid rgb(0, 185, 255);
+    width: 100%;
+    padding: 3%;
+    border-radius: 2em;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 2%;
+}
+.proceed:hover{
+    color: white;
+    background-color:rgb(0, 185, 255);
+}
+.go-back{
+    display: inline;
+    text-align: center;
+    color: rgb(255, 60, 0);
+    border: 2px solid rgb(255, 60, 0);
+    width: 100%;
+    padding: 3%;
+    border-radius: 2em;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 2%;
+}
+.go-back:hover{
+    color: white;
+    background-color:rgb(255, 60, 0);
+}
+.schedule{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.days-available{
+    font-weight: 400;
+    color: blueviolet;
+}
+.form-movie-name{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    border: 1px solid orange;
+    padding: 5%;
+    border-radius: 2em;
+    margin: 2%;
+    box-shadow: 3px 3px 3px rgb(255, 163, 51);
+}
